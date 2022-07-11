@@ -31,27 +31,78 @@ header {
 } 
 
 
+/*******************
+    FOOTER   
+********************/
+
+
+@media (max-width:576px) {
+
+    .footer-nav-list {
+        display: none !important;
+    }
+    
+}
+
 
 /*******************
-    FIRST SECTION   
+    MAIN  
 ********************/
+
+
+/* Frist section */
 
 .avatar {
     width: 261px;
 }
 
+.star-line {
+    position: relative;
+    width: 20%;
+    height: 2px;
+    background-color: white;
+}
+
+.star {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    width: 4rem;
+    transform: translate(50%, -50%);
+    background-color: var(--aqua);
+}
+
+@media (max-width:1200px) {
+
+    .star-line {
+        width: 30%;
+    }
+}
+
+@media (max-width:576px) {
+
+    .footer-nav-list {
+        display: none !important;
+    }
+
+    .star-line {
+        width: 50%;
+    }
+}
+    
+
 /* DEBUG */
 
 
 
-section {
+/* section {
     height: 400px;
-}
+} */
 
-footer div {
+/* footer div {
     height: 200px;
-}
+} */
 
-footer div:last-child {
+/* footer div:last-child {
     height: 80px;
-}
+} */
