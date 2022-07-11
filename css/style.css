@@ -5,6 +5,11 @@
     --grey: #3A546D;
 }
 
+ul {
+    margin: 0 !important;
+    padding: 0;
+}
+
 header {
     background-color: var(--black);
 }
@@ -26,6 +31,14 @@ header {
 } 
 
 
+
+/*******************
+    FIRST SECTION   
+********************/
+
+.avatar {
+    width: 261px;
+}
 
 /* DEBUG */
 
