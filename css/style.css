@@ -10,6 +10,7 @@ ul {
     padding: 0;
 }
 
+
 header {
     background-color: var(--black);
 }
@@ -43,7 +44,6 @@ header {
     }
     
 }
-
 
 /*******************
     MAIN  
@@ -96,7 +96,7 @@ header {
 
 
 /* section {
-    height: 400px;
+    height: 600px;
 } */
 
 /* footer div {
@@ -106,3 +106,7 @@ header {
 /* footer div:last-child {
     height: 80px;
 } */
+
+.col-4 {
+    border: 2px solid salmon;
+}
