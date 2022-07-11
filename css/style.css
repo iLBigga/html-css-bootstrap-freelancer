@@ -1,0 +1,31 @@
+:root {
+    --black: #2C3E50;
+    --aqua: #1ABC9C;
+    --blue: #1281B8;
+    --grey: #3A546D;
+}
+
+header {
+    background-color: var(--black);
+}
+
+.first-section {
+    background-color: var(--aqua);
+}
+
+
+.third-section {
+    background-color: var(--aqua);
+}
+
+.height {
+    height: 400px;
+}
+
+.footer-bkg-top {
+    background-color: var(--grey);
+}
+
+.footer-bkg-bottom {
+    background-color: var(--black);
+}
