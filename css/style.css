@@ -13,13 +13,8 @@ header {
     background-color: var(--aqua);
 }
 
-
 .third-section {
     background-color: var(--aqua);
-}
-
-.height {
-    height: 400px;
 }
 
 .footer-bkg-top {
@@ -28,4 +23,22 @@ header {
 
 .footer-bkg-bottom {
     background-color: var(--black);
+} 
+
+
+
+/* DEBUG */
+
+
+
+section {
+    height: 400px;
+}
+
+footer div {
+    height: 200px;
+}
+
+footer div:last-child {
+    height: 80px;
 }
