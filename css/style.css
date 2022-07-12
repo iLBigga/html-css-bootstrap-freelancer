@@ -10,7 +10,7 @@ ul {
     padding: 0;
 }
 
-header {
+.main_header {
     background-color: var(--black);
 }
 
@@ -61,10 +61,15 @@ header {
 
 .fourth-section .padding_remove {
     padding: 0 !important;
+    margin: 0 !important;
 }
 
 .form_border {
     border: 0 !important;
+}
+
+.button_color {
+    background-color: var(--aqua) !important;
 }
 
 
@@ -73,7 +78,9 @@ header {
     FOOTER   
 ********************/
 
-
+.link_color {
+    color: var(--aqua);
+}
 
 
 /*******************
