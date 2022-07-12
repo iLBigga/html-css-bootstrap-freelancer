@@ -14,7 +14,6 @@ header {
     background-color: var(--black);
 }
 
-
 .first-section {
     background-color: var(--aqua);
 }
@@ -38,6 +37,7 @@ header {
 ********************/
 
 
+
 /* Frist section */
 
 .avatar {
@@ -53,8 +53,19 @@ header {
     border-radius: 20px;
 }
 
-
 /* Second section */
+
+/* Third section */
+
+/* Fourth section */
+
+.fourth-section .padding_remove {
+    padding: 0 !important;
+}
+
+.form_border {
+    border: 0 !important;
+}
 
 
 
@@ -68,6 +79,7 @@ header {
 /*******************
     MEDIA QUERY
 ********************/
+
 
 
 @media (max-width:576px) {
