@@ -12,14 +12,24 @@
 
     <!-- MAIN HEADER -->
 
-    <header class="main_header">
-        <nav class="container-lg d-flex justify-content-between align-items-center text-white py-2">
-            <h1 class="text-uppercase">start bootstrap</h1>
-            <ul class="footer-nav-list list-unstyled text-uppercase d-sm-flex align-items-center gap-3">
-                <li><a class="text-decoration-none text-white" href="#"> portfolio</a></li>
-                <li><a class="text-decoration-none text-white" href="#">about</a></li>
-                <li><a class="text-decoration-none text-white" href="#">contact</a></li>
+    <header class="main_header text-uppercase text-white">
+        <nav class="container-lg d-flex justify-content-between align-items-center py-2">
+            <h1>start bootstrap</h1>
+            <ul class="footer-nav-list list-unstyled d-sm-flex align-items-center gap-3">
+                <li><a class="text-decoration-none text-reset" href="#"> portfolio</a></li>
+                <li><a class="text-decoration-none text-reset" href="#">about</a></li>
+                <li><a class="text-decoration-none text-reset" href="#">contact</a></li>
             </ul>
+            <div class="dropdown dropdown_display">
+                <button class="btn dropdown text-reset" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li><button class="dropdown-item text-uppercase" type="button">portfolio</button></li>
+                  <li><button class="dropdown-item text-uppercase" type="button">about</button></li>
+                  <li><button class="dropdown-item text-uppercase" type="button">contact</button></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -31,6 +41,9 @@
 
         <section class="first-section ">
             <div class="container-lg text-white d-flex flex-column align-items-center gap-3 py-5">
+
+                <!-- HERO -->
+
                 <img class="avatar py-2" src="./img/avatar.svg" alt="avatar">    
                 <h1 class="text-uppercase">start bootstrap</h1>   
                 <div class="star-line">
@@ -48,10 +61,10 @@
                     <li>illistrator</li>
                 </ul>   
             </div>
+        </section>
 
             <!-- Second section -->
 
-        </section>
         <section class="second-section">
             <div class="container-lg d-flex flex-column align-items-center gap-3 py-5">
                 <div class="d-flex flex-column align-items-center gap-3 py-3">
@@ -177,20 +190,20 @@
 
                 <div class="form px-5 py-5">
                     <div class="row mb-3 border-bottom">
-                        <label for="inputEmail3" class="col-sm-4 col-form-label fs-5">Nome</label>
-                        <div class="col-sm-8">
+                        <label for="inputEmail3" class="col-lg-2 col-md-4 col-form-label fs-5">Nome</label>
+                        <div class="col-lg-10 col-sm-12">
                             <input type="name" class="form-control form_border" id="inputEmail3">
                         </div>
                     </div>
                     <div class="row mb-3 border-bottom">
-                        <label for="inputEmail3" class="col-sm-4 col-form-label fs-5">Email Address</label>
-                        <div class="col-sm-8">
+                        <label for="inputEmail3" class="col-lg-2 col-md-4 col-form-label fs-5">Email Address</label>
+                        <div class="col-lg-10 col-sm-12">
                             <input type="email" class="form-control form_border" id="inputEmail3">
                         </div>
                     </div>
                     <div class="row mb-3 border-bottom">
-                        <label for="inputEmail3" class="col-sm-4 col-form-label fs-5">Phone Number</label>
-                        <div class="col-sm-8">
+                        <label for="inputEmail3" class="col-lg-2 col-md-4 col-form-label fs-5">Phone Number</label>
+                        <div class="col-lg-10 col-sm-12">
                             <input type="phone" class="form-control form_border" id="inputEmail3">
                         </div>
                     </div>

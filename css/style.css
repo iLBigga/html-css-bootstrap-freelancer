@@ -33,7 +33,17 @@ ul {
 
 
 /*******************
-    MAIN  
+       HEADER 
+********************/
+
+
+.dropdown_display {
+    display: none;
+}
+
+
+/*******************
+        MAIN  
 ********************/
 
 
@@ -94,9 +104,12 @@ ul {
     .footer-nav-list {
         display: none !important;
     }
+
+    .dropdown_display {
+        display: block;
+    }
     
 }
-
 
 /* DEBUG */
 
